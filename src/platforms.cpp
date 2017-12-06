@@ -133,7 +133,7 @@ CString CPlatform::SpecialChars(void) const
  }
  else
  {
-  return ALPHABET_SHELL_CHARS;
+  return " \'\""; //return ALPHABET_SHELL_CHARS;
  }
 }
 
